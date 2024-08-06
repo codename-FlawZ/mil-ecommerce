@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
 	  <header className='bg-neutral-900 w-full'>
       <nav className='border-b-neutral-500 flex justify-between'>
-        <div className="flex flex-start gap-3 uppercase text-sm font-bold text-white mx-1 items-center cursor-pointer pl-1 max-sm:hidden">
+        <div className="flex flex-start gap-3 uppercase text-xs font-bold text-white mx-1 items-center cursor-pointer pl-1 max-sm:hidden">
           <a href="#Store" className='hover:text-gray-500 active:border-blue-500 duration-200 active:text-gray-500'>Store</a>
           <a href="#Trending" className='hover:text-gray-500 active:border-blue-500 duration-200 active:text-gray-500'>Trending</a>
           <a href="#Contact" className='hover:text-gray-500 active:border-blue-500 duration-200 active:text-gray-500'>Contact</a>
