@@ -4,8 +4,8 @@ import { useGSAP } from '@gsap/react';
 const Notification = () => {
 
   useGSAP(() => {
-    gsap.to('#cta', { opacity: 1, delay: 2, display: 'block', ease: 'Power1.easeIn', transition: '' })
-    gsap.to('#textcta', { opacity: 1, delay: 3 })
+    gsap.to('#cta', { opacity: 1, delay: 5, display: 'block', ease: 'Power1.easeIn', transition: '' })
+    gsap.to('#textcta', { opacity: 1, delay: 6 })
   }, [])
 
   return (
