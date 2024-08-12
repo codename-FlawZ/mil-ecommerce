@@ -37,7 +37,7 @@ const Trending = () => {
         <img src="./assets/images/products/n6.png" alt="" width={180} />
         <h1 className="text-center">Canadian short</h1>
         <p className="text-center">From 39$ to 59$</p>
-        <button className="bg-gradient-to-r from-black to-neutral-800 text-white rounded-2xl w-[7.5rem] items-center ml-6 mt-2 hover:bg-gradient-to-r hover:from-neutral-800 hover:to-neutral-600 transition-all ease duration-200">Add to cart</button>
+        <button className="bg-gradient-to-r from-black to-neutral-800 text-white rounded-2xl w-[7.5rem] items-center ml-6 mt-2 hover:bg-gradient-to-r hover:from-neutral-800 hover:to-neutral-600 transition-colors ease-in-out duration-200">Add to cart</button>
         </div>
       </div>
       <div className="flex flex-col items-center text-center gap-7 pt-2">
